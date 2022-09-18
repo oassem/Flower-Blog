@@ -1,0 +1,168 @@
+#navbarNav a:hover {
+    color: white !important;
+    cursor: pointer;
+}
+
+#welcomeImage {
+    background-color: #81B622;
+    border-radius: 25px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#welcomeImage img {
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    transform: translateX(32%);
+}
+
+#question {
+    opacity: 99%;
+}
+
+#flower {
+    box-shadow: 10px 10px 5px 0px rgba(13, 4, 13, 0.28);
+}
+
+#footer {
+    gap: 3%;
+    padding: 5% 10%;
+}
+
+#list1 ul li, #list2 ul li {
+    opacity: 50%;
+}
+
+#list3 li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#list1 ul li:hover u, #list2 ul li:hover u {
+    text-decoration: none !important;
+}
+
+#list1 ul li:hover, #list2 ul li:hover {
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+}
+
+#sideBar {
+    background: linear-gradient(to right, rgb(243, 243, 243), white);
+}
+
+#one {
+    background: linear-gradient(rgb(233, 233, 233), transparent);
+}
+
+@media (max-width: 575.98px) {
+    #welcomeImage img {
+        transform: translateX(0%);
+        min-height: 100%;
+    }
+
+    #content {
+        width: 100% !important;
+    }
+
+    #welcomeImage {
+        height: auto;
+    }
+
+    #blogContent {
+        flex-direction: column;
+    }
+
+    #bc_main {
+        width: 100% !important;
+    }
+
+    #sideBar {
+        width: 100% !important;
+    }
+
+    #c1, #c2, #c3, #footer {
+        flex-direction: column;
+    }
+
+    #c1>div, #c2>div, #c3>div, #footer>div {
+        width: 100% !important;
+    }
+
+    #c1>div:first-child, #c2>div:first-child, #c3>div:first-child, #footer>div:first-child {
+        margin-bottom: 7%;
+    }
+
+    #c1>div:last-child, #c2>div:last-child, #c3>div:last-child {
+        text-align: left !important;
+    }
+
+    #flower, #form {
+        width: 100% !important;
+        font-size: x-small;
+        font-weight: bolder;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #welcomeImage img {
+        transform: translateX(0%);
+    }
+
+    #content {
+        width: 100% !important;
+    }
+
+    #blogContent {
+        flex-direction: column;
+    }
+
+    #bc_main {
+        width: 100% !important;
+    }
+
+    #sideBar {
+        width: 100% !important;
+    }
+
+    #c1, #c2, #c3 {
+        flex-direction: column;
+    }
+
+    #c1>div, #c2>div, #c3>div {
+        width: 100% !important;
+    }
+
+    #c1>div:first-child, #c2>div:first-child, #c3>div:first-child {
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #content {
+        width: 100% !important;
+    }
+
+    #blogContent {
+        flex-direction: column;
+    }
+
+    #bc_main {
+        width: 100% !important;
+    }
+
+    #sideBar {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
